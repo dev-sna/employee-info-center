@@ -1,0 +1,54 @@
+{
+  "name": "express-react-webpack-babel-boilerplate",
+  "version": "1.0.0",
+  "description": "This a boilerplate for Express and React Applications that provides both developer and production builds.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "concurrently \"nodemon index\" \"webpack --config webpack.dev.js\"",
+    "build": "webpack --config webpack.prod.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shahnawaz19415/express-react-webpack-babel-boilerplate.git"
+  },
+  "author": "Shah Nawaz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shahnawaz19415/express-react-webpack-babel-boilerplate/issues"
+  },
+  "homepage": "https://github.com/shahnawaz19415/express-react-webpack-babel-boilerplate#readme",
+  "dependencies": {
+    "axios": "^0.17.1",
+    "body-parser": "^1.18.2",
+    "ejs": "^2.5.7",
+    "excel-export": "^0.5.1",
+    "express": "^4.16.2",
+    "express-session": "^1.15.6",
+    "form-data": "^2.3.1",
+    "mongoose": "^4.13.7",
+    "multer": "^1.3.0",
+    "mysql": "^2.15.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-file-download": "^0.3.5",
+    "react-router": "^4.2.0",
+    "xlr": "^0.5.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-1": "^6.24.1",
+    "clean-webpack-plugin": "^0.1.17",
+    "concurrently": "^3.5.1",
+    "css-loader": "^0.28.7",
+    "nodemon": "^1.14.7",
+    "style-loader": "^0.19.1",
+    "uglifyjs-webpack-plugin": "^1.1.4",
+    "webpack": "^3.10.0",
+    "webpack-merge": "^4.1.1"
+  }
+}

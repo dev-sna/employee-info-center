@@ -1,0 +1,54 @@
+body{
+    background-color: rgb(220,220,220) !important;
+    /* background-color: rgb(27,185,209) !important; */
+    overflow-x: auto;
+    padding-bottom: -10%;
+}
+
+div.container-fluid{
+    padding: 0;
+}
+nav.navbar{
+    display: flex;
+    flex-wrap: wrap;
+}
+#login{
+    margin: 10% 0 0 0;
+}
+div.card-header{
+    /* background-color: rgb(2,117,216); */
+    background-color: rgb(21,45,45);
+    color: white;
+}
+div.card{
+    box-shadow: 0px 0px 20px #000000;
+}
+input.trans{
+    background-color: rgba(255,255,255,0.1);
+    background-color: #607D8B;
+    color: white;
+}
+table.table{
+    overflow-x: auto;
+}
+#insert{
+    padding: 0 5% 0 5%;
+}
+.errDiv{
+    background-color: #F44336;
+    color: white;
+    text-align: center;
+    font-size: 1em;
+}
+.text-style{
+    position: absolute;
+}
+.resDiv{
+    background-color: cyan;
+    color: white;
+    text-align: center;
+    font-size: 1em;
+}
+table{
+    background-color: lightslategray;
+}

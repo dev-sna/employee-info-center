@@ -1,0 +1,25 @@
+// Database Structure || data.sql
+
+Name                Name in DB Table       Length   NULL
+
+                    id                              No      PRIMARY
+S. No               serial                  4
+Name                name                    50      No
+F. Name             father                  50      No
+DOB                 dob                     10      No
+DOJ                 doj                     10      No
+Regular Date        regulardate             10      No
+BPS                 bps                     integer No
+Designation         designation             200     No
+Department          department              100     No
+Qualification       qualification           200
+Certifications      certifications          200
+CNIC No             cnic                    20
+Cell #              cell                    15
+Email               email                   50
+Address             address                 200
+Domicile            domicile                50
+File No.            file                    10
+Employee ID         employeeid              10
+Last Promotion      lpromo                  200
+Employee Category   ecat                    50
